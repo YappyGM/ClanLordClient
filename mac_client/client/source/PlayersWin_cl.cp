@@ -1276,7 +1276,7 @@ PlayersList::PictureIDForClass( int pClass )
 #else
 		case 18:
 		case 19:
-		case 20: result = 1580;	break;		// fighter subclasess -> greataxe
+		case 20: result = 1580;	break;		// fighter subclasses -> greataxe
 #endif
 		default: result = 0;	break;		// unknown
 		}
@@ -3740,7 +3740,7 @@ ParseThinkText( DescTable * target )
 #if defined( MULTILINGUAL )
 		// Note: the following constant strings should not get translated!
 		// the multilingual think system works different and these strings
-		// are still needed for ClanLord and old movie compatibilty.
+		// are still needed for ClanLord and old movie compatiblity.
 #endif // MULTILINGUAL
 #define TO_YOU_STR			" to you"
 #define TO_YOUR_CLAN_STR	" to your clan"
@@ -3820,7 +3820,7 @@ ParseThinkText( DescTable * target )
 /*
 **	SelectPlayer()
 **
-**	Look up the given name and make them the current selecion.
+**	Look up the given name and make them the current selection.
 **	If the name is not in the players list, add it.
 */
 void

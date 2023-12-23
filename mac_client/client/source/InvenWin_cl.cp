@@ -259,7 +259,7 @@ static InvenList		gInvenList;
 static	CFMutableDictionaryRef	sItemShortcutKeys;
 #endif
 
-// temp. pending mannekin or whatever
+// temp. pending mannequin or whatever
 DTSKeyID	gSelectedItemPictID = 0;
 
 

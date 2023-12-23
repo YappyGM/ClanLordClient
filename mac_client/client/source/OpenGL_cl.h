@@ -559,7 +559,7 @@ unbindTexture( GLuint texture )
 inline void
 setBlendEquation( GLenum newMode = GL_FUNC_ADD )
 {
-			// how far do we need to go to accomodate old build environments?
+			// how far do we need to go to accommodate old build environments?
 	if ( newMode != gOGLBlendEquationMode )
 		{
 		gOGLBlendEquationMode = newMode;

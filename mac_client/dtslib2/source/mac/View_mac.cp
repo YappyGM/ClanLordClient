@@ -1512,7 +1512,7 @@ DTSOffView::Init( int depth )
 void
 DTSOffView::SetImage( DTSImage * image )
 {
-	// check for an unitialized image
+	// check for an uninitialized image
 	if ( not image
 	||   not image->GetBits() )
 		{

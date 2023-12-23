@@ -1356,7 +1356,7 @@ ProgressWin::InstallControls()
 	
 	// create the progress bar control
 	OSStatus err = CreateProgressBarControl( DTS2Mac(pwin), &r,
-						0, 0, 100, false,	// value; min; max; not-inderminate
+						0, 0, 100, false,	// value; min; max; not-indeterminate
 						&pwin->progressCtl );
 	__Check_noErr( err );
 	
@@ -1446,7 +1446,7 @@ ProgressWin::UpdateDLStats( ulong cur, ulong lim ) const
 		bps = 0;
 	
 	// translate BPS into displayable form too
-	// (musn't forget to add the "B/s" units suffix, later on)
+	// (mustn't forget to add the "B/s" units suffix, later on)
 	BytesToEnglish( ulong(bps), speedBuf, sizeof speedBuf );
 	
 	// figure remaining time. again, don't divide by 0

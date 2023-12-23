@@ -58,7 +58,7 @@ void	SetUpStyle( int msgClass, CLStyleRecord * rec );
 
 /*
 	Currently the styles array in the plist file contains some 17 entries
-	(correponding to kMsgDefault up to kMsgLastMsg). Each entry is a dictionary
+	(corresponding to kMsgDefault up to kMsgLastMsg). Each entry is a dictionary
 	with the following keys (some optional):
 */
 #define TS_Name		CFSTR("Name")		// string: name of style, to show in dialog

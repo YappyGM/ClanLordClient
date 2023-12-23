@@ -1716,7 +1716,7 @@ GetCLColorTable()
 
 //
 // The last time I tried it (admittedly quite a long while ago...), NSBitmapImageReps
-// would only accept big-endian data, wherease CGImageRefs will take either endianness.
+// would only accept big-endian data, whereas CGImageRefs will take either endianness.
 // Turn this on to be NSImage-friendlier.
 //
 #define FORCE_BIG_ENDIAN_FOR_NSIMAGE	0

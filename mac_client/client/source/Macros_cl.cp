@@ -1395,7 +1395,7 @@ CVariableMacro::SetVariable( const char * name, const char * value,
 
 /*
 **	CVariableMacro::GetEnvVar()
-**	get the value of an enviroment-related variable
+**	get the value of an environment-related variable
 **	return false if not successful
 **	right now, only @env.textLog is readable
 */
