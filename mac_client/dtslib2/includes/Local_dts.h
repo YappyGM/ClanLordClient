@@ -138,7 +138,7 @@ inline void		ClearErrorCode()					// routine to clear the error code
 
 /*
 **	Define Error checking routines
-**	These routines return from the current funtion if the error code is set. (Yuck.)
+**	These routines return from the current function if the error code is set. (Yuck.)
 */
 #define	CheckError()		{ if ( gErrorCode != noErr ) return; }
 #define	ReturnError(x)		{ if ( gErrorCode != noErr ) return (x); }

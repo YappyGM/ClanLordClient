@@ -253,7 +253,7 @@ public:
 								// upon return, if outEnableIt is enable_NO/YES, then the
 								// menu item that is the subject of this inquiry will be 
 								// disabled or enabled accordingly; otherwise, it'll be left as is.
-								// (This happens independendly of the overall return value, so
+								// (This happens independently of the overall return value, so
 								// that subclass can alter menu status while still returning
 								// 'eventNotHandledErr', with all that that implies.)
 								//

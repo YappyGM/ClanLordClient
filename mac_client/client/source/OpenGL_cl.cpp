@@ -2944,7 +2944,7 @@ else
 						glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE );
 						}
 						// this will change (elsewhere) according to gFastBlendMode
-						// GL_NEAREST is the faster (and prefered by OGL_UNSCALED_LIGHTMAP)
+						// GL_NEAREST is the faster (and preferred by OGL_UNSCALED_LIGHTMAP)
 					glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST );
 					glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST );
 					gOGLNightTextureFilter = GL_NEAREST;

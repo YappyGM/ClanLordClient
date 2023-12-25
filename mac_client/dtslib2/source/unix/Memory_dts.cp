@@ -358,7 +358,7 @@ char * NewAlloc( long size )
 	// point to the block
 	char * ptr = (char *)( long(fl) + kHeaderSize );
 	
-	// zap the returned block with the value meaning unitialized
+	// zap the returned block with the value meaning uninitialized
 #ifdef DEBUG_VERSION_TAGS
 	fl->flTagString = tagString;
 #endif

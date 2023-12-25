@@ -357,7 +357,7 @@ void * NewAlloc( size_t size ) DOES_NOT_THROW
 #endif
 	
 #ifdef DEBUG_VERSION_NEW
-	// zap the returned block with the value meaning unitialized
+	// zap the returned block with the value meaning uninitialized
 	fl->flUsedSize = orgsize;
 	memset( ptr, kZapUninitialized, fl->flSize );
 #endif

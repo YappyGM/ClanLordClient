@@ -43,7 +43,7 @@ it's in all caps to indicate it's a macro.
 for debug builds, NEW_TAG adds a tag string to the allocated memory block.
 for non-debug builds, NEW_TAG is the standard new.
 well, maybe the new that doesn't throw any exceptions.
-for exmple:
+for example:
 
 void foo()
 {

@@ -127,7 +127,7 @@ protected:
 	DTSError				Read1Descriptor( DescTable * desc );
 	
 	//
-	// Frame delay (pause, play, fast forward) accesors
+	// Frame delay (pause, play, fast forward) assessors
 	//
 	ulong					GetReadFrameDelay() const
 		{	return mReadFrameDelay; }
@@ -186,10 +186,10 @@ static	ulong				sFrameTicks;
 	struct SFileHead_Old
 		{
 		// movies created prior to v105.1 used this format instead
-		// how do we tell the difference beween 105.0 and 105.1? I guess we
+		// how do we tell the difference between 105.0 and 105.1? I guess we
 		// look at 'len'.
 		uint32_t			signature;			// packet_Sign
-		int16_t				version;			// wich version of CL did record this
+		int16_t				version;			// which version of CL did record this
 		int16_t				len;				// header len;
 		int32_t				frames;				// number of frames
 		uint32_t			starttime;			// when was that recorded

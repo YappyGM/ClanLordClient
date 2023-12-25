@@ -307,7 +307,7 @@ StyledTextField::StyleInsert( const char * text, const CLStyleRecord * style )
 	
 #if TEXTFIELD_USES_MLTE
 	
-	TXNTypeAttributes attrs[ 8 ];		// plenty big enoug
+	TXNTypeAttributes attrs[ 8 ];		// plenty big enough
 //	memset( attrs, 0, sizeof attrs );
 	
 	// cache last-used style

@@ -283,7 +283,7 @@ public:
 											bool					inErrors );
 
 	
-	// If an error occured, return position in the text
+	// If an error occurred, return position in the text
 	long							GetErrorPosition() const
 		{
 		return mErrorPosition;

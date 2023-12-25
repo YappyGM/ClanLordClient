@@ -1092,7 +1092,7 @@ TextWindow::HiliteSelection()
 	
 	// check the selection
 	// if there is a selection we want to activate the field
-	// if not then we want to deactivate it to hide the blinken cursor
+	// if not then we want to deactivate it to hide the blinking cursor
 	int start, stop;
 	twText.GetSelect( &start, &stop );
 	if ( start == stop )

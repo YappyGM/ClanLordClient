@@ -97,7 +97,7 @@ public:
 		// the maximum number of BOTH static-like old pictures from prior frames,
 		// AND dynamic-like (new) pictures from the current frame
 		// More recent versions use more bits per image sent, so this overestimates
-		// the number possibe for those, but that many are still needed when playing old movies.
+		// the number possible for those, but that many are still needed when playing old movies.
 		max_Picture				=	(2 * size_Frame / size_PictureMin),
 		
 		max_Mobile				=	size_Frame / size_MobileMin

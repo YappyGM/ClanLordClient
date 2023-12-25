@@ -581,7 +581,7 @@ BrowserList::RemoveDBItems(
 **	'preSortProp' is the ID of the column by which the supplied array items are
 **	sorted, if they already are sorted.
 **	'changedProp' is the column whose values have changed; if not provided, all
-**	the columns neeed updating.
+**	the columns need updating.
 **	For the kinds of flat lists we do, 'container' should always be 0 (the root).
 */
 OSStatus
