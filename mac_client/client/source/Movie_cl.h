@@ -186,7 +186,7 @@ static	ulong				sFrameTicks;
 	struct SFileHead_Old
 		{
 		// movies created prior to v105.1 used this format instead
-		// how do we tell the difference been 105.0 and 105.1? I guess we
+		// how do we tell the difference between 105.0 and 105.1? I guess we
 		// look at 'len'.
 		uint32_t			signature;			// packet_Sign
 		int16_t				version;			// which version of CL did record this
